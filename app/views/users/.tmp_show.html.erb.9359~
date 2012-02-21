@@ -1,0 +1,10 @@
+<h3>Details for <%= @user.user_name %></h3>
+<% form_for(@user) do |f| %>
+<table>
+	<tr>
+		<td>User Name :</td>
+		<td><%=@user.user_name %></td>
+	</tr>
+</table>
+<% end %>
+	<%= link_to 'Back', :action => "index"%>

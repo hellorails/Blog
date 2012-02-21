@@ -1,0 +1,24 @@
+
+<% form_for(@user) do |f| %>
+<%= f.error_messages %>
+<fieldset>
+	<legend>Enter New User</legend>
+	<table>
+		<tr>
+			<td><%= f.label :user_name, 'User Name' %></td>
+			<td><%= f.text_field :user_name, :size => 20 %></td>
+		</tr>
+		<tr>
+			<td><%= f.label :hashed_password, 'Password' %></td>
+			<td><%= f.password_field :password, :size => 20 %></td>
+		</tr>
+		<tr>
+			<td><%= f.label :user_password_confirmation, 'Confirm Password' %></td>
+			<td><%= f.password_field :password_confirmation, :size => 20 %></td>
+		</tr>
+		<tr>
+			<td><%= f.submit "Add User", :class => 'submit' %></td>
+		</tr>
+	</table>
+</fieldset>
+<% end %>

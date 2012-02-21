@@ -1,0 +1,23 @@
+
+<h3>User <%= @user.user_name %> Details</h3>
+
+<% form_for(@user) do |f| %>
+<table>
+	<tr>
+		<td><%= f.label :user_name, 'User Name'%></td>
+		<td><%= f.text_field :user_name %></td>
+	</tr>
+	<tr>
+		<td><%= f.label :password, 'New Password' %></td>
+		<td><%= f.password_field :hashed_password, :value => "" %></td>
+	</tr>
+	<tr>
+		<td><%= f.label :confirm_password, "Re-enter Password" %></td>
+		<td><%= f.password_field :password_confirmation, :value => "" %></td>
+	</tr>
+	<tr>
+		<td><%= f.submit "Update"%></td>
+	</tr>
+</table>
+<% end %>
+	<%= link_to 'Back', :action => "index"%>

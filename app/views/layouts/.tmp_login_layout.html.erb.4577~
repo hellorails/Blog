@@ -1,0 +1,9 @@
+
+<%= stylesheet_link_tag "new_file.css" %>
+<div class = 'top'>
+</div>
+<div class = 'right'>
+	<%= yield %>
+</div>
+<div class = 'left'></div>
+<div class = 'bottom'></div>

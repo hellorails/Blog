@@ -1,0 +1,84 @@
+body 
+{	
+	background: url(../images/enlarged_puro_web_site.jpg) top center no-repeat;
+	background-size: 1180px 800px;
+	margin-bottom: 0px;
+}
+.top
+{
+	
+	position:fixed;
+	width:987px;
+	padding:62px;
+	margin:80px;
+	top:-32px;
+	left:130px;
+	overflow: hidden;
+	
+}
+.right
+{
+	position:fixed;
+	width:10px;
+	padding:200px;
+	margin:70px;
+	top:103px;
+	left:140px;
+	bottom:-35px;
+	
+}
+.left
+{
+	position:fixed;
+	width:300px;
+	padding:200px;
+	margin:70px;
+	top:103px;
+	left:551px;
+	bottom:-35px;
+}
+.bottom
+{
+	position:fixed;
+	width:1081px;
+	padding:15px;
+	top:653px;
+	left:197px;
+	margin:13px;
+}
+.page_bg {
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 0px;
+	background: url(../images/banner.jpg) top center no-repeat;
+}
+.login
+{
+	position:fixed;
+ 	top:170px;
+ 	left:130px;
+	right:-35px;	
+}
+.submit
+{	
+	position:fixed;
+ 	top:73px;
+	left:460px;
+	right:-550px;	
+}
+.new_user
+{
+	position:absolute;
+ 	top:250;
+ 	left:800;
+ 	width:200px;
+}
+.box
+{
+	width:430px;
+	padding:20px;
+	border:5px solid black;
+	margin:80px;
+	height:200px;
+}
+
