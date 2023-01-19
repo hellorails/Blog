@@ -1,6 +1,6 @@
 [
   {
-    "metricName": "Fc KPI",
+    "metricName": ["Fc KPI"],
     "EU": 3000,
     "CEU": 3000,
     "MEU": 3000,
