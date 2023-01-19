@@ -1,4 +1,11 @@
 [
+  {
+      headerName: 'Metric Name',
+      field: 'metricName',
+      width: 200,
+      pinned: 'left',
+
+    }
     { field: 'EU' },
     { field: 'CEU' },
     { field: 'MEU' },
