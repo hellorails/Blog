@@ -4,7 +4,8 @@
       field: 'metricName',
       width: 200,
       pinned: 'left',
-
+      lockPinned: true,
+      cellClass: 'lock-pinned',
     }
     { field: 'EU' },
     { field: 'CEU' },
