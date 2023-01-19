@@ -6,7 +6,7 @@
       pinned: 'left',
       lockPinned: true,
       cellClass: 'lock-pinned',
-    }
+    },
     { field: 'EU' },
     { field: 'CEU' },
     { field: 'MEU' },
