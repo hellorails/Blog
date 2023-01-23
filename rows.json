@@ -873,7 +873,7 @@
   },
 ,
   {
-    "metricName": ["Fc KPI", "6. Fc KPI" , "6.1 FC KPI(Level 2)", ""6.1.1 FC KPI(Level 3)""],
+    "metricName": ["Fc KPI", "6. Fc KPI" , "6.1 FC KPI(Level 2)", 6.1.1 FC KPI(Level 3)],
     "EU": 3000,
     "CEU": 3000,
     "MEU": 3000,
